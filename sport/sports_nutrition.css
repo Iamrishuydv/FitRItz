@@ -1,0 +1,106 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.columns {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.lefts, .rights {
+  width: 15%;
+}
+
+.middles {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+.columnn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.leftt {
+  width: 80%;
+}
+
+.rightt {
+  width: 20%;
+}
+
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.p {
+  margin: 30px;
+  background:#DCDCDC;
+  border-left: 5px solid red;
+font-family:courier;
+font-size:20px;
+}
+
+
+
+
+.columnnn {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 100px; 
+}
+.lefttt {
+  width: 10;
+}
+
+.righttt {
+  width: 90%;
+}
+
+.rowww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

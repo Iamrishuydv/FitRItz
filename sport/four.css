@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 2000px; /* Should be removed. Only for demonstration */
+}.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 2000px; /* Should be removed. Only for demonstration */
+}.column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 2000px; /* Should be removed. Only for demonstration */
+}
+.column4 {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 2000px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.p {
+  margin: 30px;
+  background:#DCDCDC;
+  border-left: 5px solid red;
+font-family:courier;
+font-size:20px;
+}
+

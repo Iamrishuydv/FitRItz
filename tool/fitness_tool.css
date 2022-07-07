@@ -1,0 +1,45 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lef {
+  width: 80%;
+}
+
+.rig {
+  width: 20%;
+}
+.p {
+  margin: 30px;
+  background:#DCDCDC;
+  border-left: 5px solid red;
+font-family:courier;
+font-size:20px;
+}
+.leftt {
+  width: 30%;
+}
+
+.rightt {
+  width: 70%;
+}
